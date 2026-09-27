@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+/* add more root settings here - colors, fonts, etc: */
+:root {
+   --text-size--2: clamp(0.6076rem, 0.5149rem + 0.4945vw, 0.96rem);
+  --text-size--1: clamp(0.7292rem, 0.6053rem + 0.6608vw, 1.2rem);
+  --text-size-0: clamp(0.875rem, 0.7105rem + 0.8772vw, 1.5rem);
+  --text-size-1: clamp(1.05rem, 0.8329rem + 1.1579vw, 1.875rem);
+  --text-size-2: clamp(1.26rem, 0.9748rem + 1.5211vw, 2.3438rem);
+  --text-size-3: clamp(1.512rem, 1.1389rem + 1.9897vw, 2.9297rem);
+  --text-size-4: clamp(1.8144rem, 1.3282rem + 2.5933vw, 3.6621rem);
+  --text-size-5: clamp(2.1773rem, 1.5456rem + 3.3689vw, 4.5776rem);
+      
+  --heading-size--1: clamp(0.9375rem, 0.7105rem + 1.2105vw, 1.8rem);
+  --heading-size-0: clamp(1.125rem, 0.8289rem + 1.5789vw, 2.25rem);
+  --heading-size-1: clamp(1.35rem, 0.9651rem + 2.0526vw, 2.8125rem);
+  --heading-size-2: clamp(1.62rem, 1.1212rem + 2.6605vw, 3.5156rem);
+  --heading-size-3: clamp(1.944rem, 1.2991rem + 3.4393vw, 4.3945rem);
+  --heading-size-4: clamp(2.3328rem, 1.5011rem + 4.4356vw, 5.4932rem);
+  --heading-size-5: clamp(2.7994rem, 1.7291rem + 5.7082vw, 6.8665rem);
+}
+
+/* image, ul, li,span, a, h, etc settings here */
+
+/* body settings for example: */
+
+/* body {
+    font-family: var()
+    font-size: var()
+    background-color: var()
+    color
+} */
+
+.container {
+    width: 1400px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    @media (width <= 900px) {
+        max-width: 90%;
+    }
+    @media (width <= 600px) {
+        max-inline-size: 85%;
+    }
+}
+
+/* next set up header */
